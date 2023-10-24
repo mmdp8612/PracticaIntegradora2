@@ -1,4 +1,13 @@
-## Información sobre el Desafio 7
+## Información sobre la Practica Integradora 2
+
+En el mismo se modifico el modelo de User para que respete el pedido en la consigna, ademas se utilizo passport y session para 
+el login y el registro como alternativa a JWT.
+
+En cuanto al login con GitHub entiendo que la entrega anterior no les funciono al momento de probarlo, por mi lado les cuento que a mi 
+me funciona perfectamente, de todas formas si te vuelve a pasar avisame que sigo investigando, si te arroja un error pasamelo en la 
+devolucion.
+
+## Resumen de todo lo que se fue agregando
 
 Se incluyo funcionalidad de login y registro de usuarios, los mismos son necesarios para acceder a las secciones de Productos, 
 Perfil y Carrito. Para ello se utilizo el paquete "express-session", ademas se agrego el modelo User para persistir la informacion de cada usuario que se registre.

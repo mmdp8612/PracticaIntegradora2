@@ -3,6 +3,10 @@
 En el mismo se modifico el modelo de User para que respete el pedido en la consigna, ademas se utilizo passport y session para 
 el login y el registro como alternativa a JWT.
 
+Ademas se agrego la ruta profile para visualizar el usuario que se encuentra logueado.
+
+- **GET**      http://localhost:8080/view/profile
+
 En cuanto al login con GitHub entiendo que la entrega anterior no les funciono al momento de probarlo, por mi lado les cuento que a mi 
 me funciona perfectamente, de todas formas si te vuelve a pasar avisame que sigo investigando, si te arroja un error pasamelo en la 
 devolucion.
@@ -29,7 +33,6 @@ A continuacion se listan las rutas que se fueron agregando.
 - **GET**      http://localhost:8080/view/login
 - **GET**      http://localhost:8080/view/register
 - **GET**      http://localhost:8080/view/logout
-- **GET**      http://localhost:8080/view/profile
 - **POST**     http://localhost:8080/api/auth/register
 - **POST**     http://localhost:8080/api/auth/login
 
